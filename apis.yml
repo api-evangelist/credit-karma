@@ -53,6 +53,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: MCPServer
+  url: mcp/credit-karma-mcp.yml
 - type: Website
   url: https://www.creditkarma.com
 - type: Support
