@@ -45,7 +45,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-08-08'
+modified: '2026-10-06'
 tags:
 - Company
 - Fintech
@@ -74,6 +74,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.creditkarma.com/feed
+  type: BlogRSS
 - type: MCPServer
   url: mcp/credit-karma-mcp.yml
 - type: Website
