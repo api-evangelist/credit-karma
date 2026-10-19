@@ -1,0 +1,85 @@
+edges:
+- partner_name: npm registry
+  partner: npm
+  partner_match: register
+  type: register
+  direction: provider-built
+  category: official SDK (JavaScript/TypeScript)
+  evidence: https://www.npmjs.com/package/@creditkarma/thrift-client
+  channel: package-registry
+  relationship: distribution-channel
+  contract_reference:
+    register: npm registry (public registry JSON)
+    spec_file: null
+    language: JavaScript/TypeScript
+    packages:
+    - name: '@creditkarma/thrift-client'
+      version: 1.0.4
+      released: '2023-06-05'
+      released_field: modified
+      lapsed: true
+      page: https://www.npmjs.com/package/@creditkarma/thrift-client
+      repo_leg: github-org:creditkarma
+      publisher_leg: email:creditkarma.com
+      matched_by: domain
+    - name: '@creditkarma/thrift-parser'
+      version: 2.0.0
+      released: '2022-06-22'
+      released_field: modified
+      lapsed: true
+      page: https://www.npmjs.com/package/@creditkarma/thrift-parser
+      repo_leg: github-org:creditkarma
+      publisher_leg: email:creditkarma.com
+      matched_by: domain
+    - name: '@creditkarma/thrift-server-core'
+      version: 1.0.4
+      released: '2023-06-05'
+      released_field: modified
+      lapsed: true
+      page: https://www.npmjs.com/package/@creditkarma/thrift-server-core
+      repo_leg: github-org:creditkarma
+      publisher_leg: email:creditkarma.com
+      matched_by: domain
+    - name: '@creditkarma/thrift-typescript'
+      version: 3.7.6
+      released: '2022-06-12'
+      released_field: modified
+      lapsed: true
+      page: https://www.npmjs.com/package/@creditkarma/thrift-typescript
+      repo_leg: github-org:creditkarma
+      publisher_leg: email:creditkarma.com
+      matched_by: domain
+    - name: '@creditkarma/vault-client'
+      version: 1.0.0
+      released: '2022-06-22'
+      released_field: modified
+      lapsed: true
+      page: https://www.npmjs.com/package/@creditkarma/vault-client
+      repo_leg: github-org:creditkarma
+      publisher_leg: email:creditkarma.com
+      matched_by: domain
+    current: false
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  detected_by: sweep-official-sdks.py
+  first_seen: '2026-10-18'
+generated: '2026-10-18'
+method: searched
+source:
+- https://api.nuget.org/v3
+- https://crates.io/api/v1
+- https://proxy.golang.org
+- https://pypi.org/pypi
+- https://registry.npmjs.org
+- https://repo1.maven.org/maven2
+- https://rubygems.org/api/v1
+checked:
+- https://api.nuget.org/v3
+- https://crates.io/api/v1
+- https://proxy.golang.org
+- https://pypi.org/pypi
+- https://registry.npmjs.org
+- https://repo1.maven.org/maven2
+- https://rubygems.org/api/v1
